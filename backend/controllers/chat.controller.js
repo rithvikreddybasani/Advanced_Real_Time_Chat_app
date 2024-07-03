@@ -10,7 +10,7 @@ import Message from '../models/message.model.js';
 import { io, userSocketMap } from '../socket/socket.js';
 
 // @description     Create New Group Chat
-// @route           POST /api/chat/group
+// @route           POST /api/chat/group/option
 
 export const createGroupChat = async (req, res) => {
   const { users, chatname } = req.body;
