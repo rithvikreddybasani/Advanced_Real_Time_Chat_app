@@ -28,5 +28,5 @@ const UpdateProfilePage = () => {
     </div>
   );
 };
-
+// updating update page
 export default UpdateProfilePage;
