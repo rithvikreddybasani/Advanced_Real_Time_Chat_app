@@ -4,7 +4,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 
 import { bgImages } from './shared/data/index.js';
-
+// updating 
 import { useAuthContext } from './shared/context/AuthContext';
 import Toast from './components/ui/Toast.jsx';
 
