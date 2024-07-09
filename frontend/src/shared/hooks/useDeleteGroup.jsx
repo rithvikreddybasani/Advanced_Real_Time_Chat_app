@@ -3,6 +3,7 @@ import toast from 'react-hot-toast';
 
 export const useDeleteGroup = () => {
   const [isLoading, setIsLoading] = useState(false);
+  // for loading screen
 
   const deleteGroup = useCallback(async ({ users, groupId }) => {
     setIsLoading(true);
