@@ -15,7 +15,8 @@ export const extractTime = (dateStr) => {
   return `${hours}:${minutes}`;
 };
 
-// pad single-digit numbers with a leading zero
+// pad single-digit numbers with a leading zerom
+// added extra sound
 function padZero(num) {
   return num.toString().padStart(2, '0');
 }
