@@ -2,6 +2,7 @@ import { useDeleteMessage } from '../../../../../shared/hooks/useDeleteMessage';
 import Icon from '../../../../ui/Icon';
 
 const DeleteMessage = ({ fromMe, id }) => {
+  // message
   const { deleteMessage } = useDeleteMessage();
   return (
     <li>
