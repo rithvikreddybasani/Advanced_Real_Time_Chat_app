@@ -6,14 +6,8 @@
   "scripts": {
     "server": "nodemon server.js",
     "start": "node server.js",
-    "lint": "eslint **/*.js",
-    "lint:fix": "eslint --fix **/*.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "type": "module",
-  "engines": {
-    "node": ">16.17.1"
-  },
+
   
   "keywords": [],
   "author": "",
