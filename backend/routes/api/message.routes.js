@@ -9,6 +9,7 @@ import { uploadMiddleware } from '../../middlewares/uploadMiddleware.js';
 const router = Router();
 
 const messageValidate = validateBody(messageValidation);
+// message validation
 
 router.get('/:id', protectRoute, messageCtrl.getMessages);
 router.post('/send/:id', protectRoute, messageValidate, uploadMiddleware, messageCtrl.sendMessage);

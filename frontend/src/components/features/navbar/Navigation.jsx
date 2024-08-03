@@ -5,8 +5,10 @@ import DropdownButton from '../../ui/DropdownButton';
 import DropdownContent from './dropdown.content/DropdownContent';
 import Notification from './Notification';
 
+
 const Navigation = () => {
   const { authUser } = useAuthContext();
+  //  from userContext
 
   return (
     <nav className='flex md:flex-col-reverse items-center justify-between md:justify-center gap-2'>
@@ -17,7 +19,8 @@ const Navigation = () => {
             <Notification />
           </div>
           <DropdownButton style='dropdown dropdown-bottom dropdown-left md:dropdown-right'>
-            <Avatar src={authUser.avatar} />
+            <Avatar src={authUser.avatar} /> 
+            
             <DropdownContent />
           </DropdownButton>
         </>

@@ -1,4 +1,5 @@
 const Logo = () => {
+  // changed logo
   return (
     <div className='hidden md:flex flex-1 cursor-pointer'>
       <img

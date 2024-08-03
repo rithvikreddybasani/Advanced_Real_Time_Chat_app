@@ -5,7 +5,7 @@ const useConversation = createWithEqualityFn(
   (set, get) => ({
     // SOCKET
     socket: null,
-    onlineUsers: [],
+    onlineUsers: [], // for online users
     setSocket: (socket) => set((state) => ({ ...state, socket })),
     setOnlineUsers: (users) => set((state) => ({ ...state, onlineUsers: users })),
     socketStatus: 'disconnected',
